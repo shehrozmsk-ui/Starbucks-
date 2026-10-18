@@ -1,0 +1,26 @@
+{
+    "target_column": "calorie_level",
+    "calorie_column": "calories",
+    "accuracy": 0.8695652173913043,
+    "generated_calorie_target": true,
+    "feature_columns": [
+        "fat_g",
+        "carb_g",
+        "fiber_g",
+        "protein",
+        "sodium"
+    ],
+    "numeric_features": [],
+    "categorical_features": [
+        "fat_g",
+        "carb_g",
+        "fiber_g",
+        "protein",
+        "sodium"
+    ],
+    "calorie_thresholds": {
+        "Low": "0-99 calories",
+        "Medium": "100-199 calories",
+        "High": "200 or more calories"
+    }
+}
